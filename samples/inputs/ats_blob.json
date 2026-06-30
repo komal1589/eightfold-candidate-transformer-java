@@ -1,0 +1,10 @@
+{
+  "candidateName": "Ada Lovelace",
+  "contactEmails": ["ada.lovelace@example.com", "ALOVELACE@oldmail.com"],
+  "contactPhones": ["+1 415 555 0142"],
+  "currentHeadline": "Staff Software Engineer · Distributed Systems",
+  "yearsOfExperience": 9,
+  "skillTags": ["Python", "golang", "k8s", "PostgreSQL", "Distributed Systems"],
+  "geo": {"city": "San Francisco", "state": "CA", "country": "USA"},
+  "profileUrls": ["https://linkedin.com/in/adalovelace", "https://adalovelace.dev"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Ada Byron Lovelace",
+  "headline": "Staff Software Engineer at Analytical Engines",
+  "profileUrl": "https://www.linkedin.com/in/adalovelace",
+  "location": "San Francisco Bay Area, United States",
+  "experience": [
+    {"company": "Analytical Engines Inc", "title": "Staff Software Engineer", "start": "2021-03", "end": "", "summary": "Lead on the streaming data platform."},
+    {"company": "Babbage Systems", "title": "Senior Software Engineer", "start": "Jun 2017", "end": "Feb 2021", "summary": "Built the compute scheduler."}
+  ],
+  "education": [
+    {"school": "MIT", "degree": "B.S.", "field": "Computer Science", "end": "2017"}
+  ],
+  "skills": ["Distributed Systems", "Apache Kafka", "Kubernetes", "Go"]
+}

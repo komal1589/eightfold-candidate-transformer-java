@@ -1,0 +1,258 @@
+{
+  "candidate_id": "cand_ada_lovelace_001",
+  "full_name": "Ada B. Lovelace",
+  "emails": [
+    "ada.lovelace@example.com",
+    "alovelace@oldmail.com"
+  ],
+  "phones": [
+    "+14155550142",
+    "+14155550199"
+  ],
+  "location": {
+    "city": "San Francisco",
+    "region": "California",
+    "country": "US"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/adalovelace",
+    "github": "https://github.com/adalovelace",
+    "portfolio": null,
+    "other": [
+      "https://adalovelace.dev"
+    ]
+  },
+  "headline": "Staff Software Engineer",
+  "years_experience": 9,
+  "skills": [
+    {
+      "name": "Apache Kafka",
+      "confidence": 0.91,
+      "sources": [
+        "linkedin",
+        "recruiter_notes",
+        "resume"
+      ]
+    },
+    {
+      "name": "Apache Spark",
+      "confidence": 0.7,
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "name": "Distributed Systems",
+      "confidence": 1,
+      "sources": [
+        "ats_json",
+        "linkedin",
+        "recruiter_notes"
+      ]
+    },
+    {
+      "name": "Go",
+      "confidence": 1,
+      "sources": [
+        "ats_json",
+        "github_api",
+        "linkedin",
+        "recruiter_notes",
+        "resume"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "confidence": 0.95,
+      "sources": [
+        "github_api"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "confidence": 1,
+      "sources": [
+        "ats_json",
+        "linkedin",
+        "resume"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "confidence": 0.95,
+      "sources": [
+        "ats_json",
+        "resume"
+      ]
+    },
+    {
+      "name": "Python",
+      "confidence": 1,
+      "sources": [
+        "ats_json",
+        "github_api",
+        "resume"
+      ]
+    },
+    {
+      "name": "Rust",
+      "confidence": 1,
+      "sources": [
+        "github_api",
+        "resume"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Analytical Engines Inc",
+      "title": "Staff Software Engineer",
+      "start": "2021-03",
+      "end": "present",
+      "summary": "Lead on the streaming data platform."
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Babbage Systems",
+      "start": "2017-06",
+      "end": "2021-02",
+      "summary": "Built the compute scheduler."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S.",
+      "field": "Computer Science",
+      "institution": "MIT",
+      "end_year": 2017
+    }
+  ],
+  "overall_confidence": 0.779,
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "recruiter_csv",
+      "method": "csv_column:name"
+    },
+    {
+      "field": "headline",
+      "source": "recruiter_csv",
+      "method": "csv_column:title"
+    },
+    {
+      "field": "years_experience",
+      "source": "ats_json",
+      "method": "ats:yearsOfExperience"
+    },
+    {
+      "field": "location.city",
+      "source": "recruiter_csv",
+      "method": "csv_column:location"
+    },
+    {
+      "field": "location.region",
+      "source": "recruiter_csv",
+      "method": "csv_column:location"
+    },
+    {
+      "field": "location.country",
+      "source": "recruiter_csv",
+      "method": "csv_column:location"
+    },
+    {
+      "field": "links.linkedin",
+      "source": "linkedin",
+      "method": "linkedin:profileUrl"
+    },
+    {
+      "field": "links.github",
+      "source": "github_api",
+      "method": "github_api:login"
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_csv",
+      "method": "csv_column:email"
+    },
+    {
+      "field": "emails",
+      "source": "ats_json",
+      "method": "ats:contactEmails"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv",
+      "method": "csv_column:phone"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_notes",
+      "method": "notes:regex_phone"
+    },
+    {
+      "field": "links.other",
+      "source": "ats_json",
+      "method": "ats:profileUrls"
+    },
+    {
+      "field": "skills:Apache Kafka",
+      "source": "linkedin",
+      "method": "linkedin:skills"
+    },
+    {
+      "field": "skills:Apache Spark",
+      "source": "resume",
+      "method": "resume:skills_section"
+    },
+    {
+      "field": "skills:Distributed Systems",
+      "source": "ats_json",
+      "method": "ats:skillTags"
+    },
+    {
+      "field": "skills:Go",
+      "source": "ats_json",
+      "method": "ats:skillTags"
+    },
+    {
+      "field": "skills:JavaScript",
+      "source": "github_api",
+      "method": "github_api:languages"
+    },
+    {
+      "field": "skills:Kubernetes",
+      "source": "ats_json",
+      "method": "ats:skillTags"
+    },
+    {
+      "field": "skills:PostgreSQL",
+      "source": "ats_json",
+      "method": "ats:skillTags"
+    },
+    {
+      "field": "skills:Python",
+      "source": "ats_json",
+      "method": "ats:skillTags"
+    },
+    {
+      "field": "skills:Rust",
+      "source": "github_api",
+      "method": "github_api:languages"
+    },
+    {
+      "field": "experience",
+      "source": "recruiter_csv",
+      "method": "csv_row:current_role"
+    },
+    {
+      "field": "experience",
+      "source": "resume",
+      "method": "resume:experience_section"
+    },
+    {
+      "field": "education",
+      "source": "resume",
+      "method": "resume:education_section"
+    }
+  ]
+}

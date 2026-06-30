@@ -1,0 +1,12 @@
+{
+  "candidate_id": "cand_ada_lovelace_001",
+  "sources": [
+    {"type": "recruiter_csv",   "path": "recruiter_export.csv", "timestamp": "2026-06-20"},
+    {"type": "ats_json",        "path": "ats_blob.json",        "timestamp": "2026-06-18"},
+    {"type": "ats_json",        "path": "corrupt_ats.json",     "timestamp": "2026-06-18"},
+    {"type": "github_api",      "path": "github_profile.json",  "timestamp": "2026-06-22"},
+    {"type": "linkedin",        "path": "linkedin_profile.json","timestamp": "2026-06-15"},
+    {"type": "resume",          "path": "resume.txt",           "timestamp": "2026-06-10"},
+    {"type": "recruiter_notes", "path": "recruiter_notes.txt",  "timestamp": "2026-06-21"}
+  ]
+}

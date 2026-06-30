@@ -1,0 +1,15 @@
+# Build output
+bin/
+build/
+.gradle/
+*.class
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Microsoft Office temporary files
+~$*.docx

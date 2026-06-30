@@ -1,0 +1,11 @@
+{
+  "candidate_id": "cand_alan_turing_001",
+  "sources": [
+    {"type": "recruiter_csv",   "path": "recruiter.csv", "timestamp": "2026-06-24"},
+    {"type": "ats_json",        "path": "ats.json",      "timestamp": "2026-06-22"},
+    {"type": "github_api",      "path": "github.json",   "timestamp": "2026-06-25"},
+    {"type": "linkedin",        "path": "linkedin.json", "timestamp": "2026-06-18"},
+    {"type": "resume",          "path": "resume.txt",    "timestamp": "2026-06-12"},
+    {"type": "recruiter_notes", "path": "notes.txt",     "timestamp": "2026-06-23"}
+  ]
+}

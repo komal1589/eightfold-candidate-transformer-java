@@ -1,0 +1,12 @@
+Ada Lovelace
+ada.lovelace@example.com | +1 (415) 555-0142 | San Francisco, CA
+
+SKILLS
+Python, Go, Rust, Apache Spark, Kafka, PostgreSQL, Kubernetes
+
+EXPERIENCE
+Staff Software Engineer, Analytical Engines Inc (2021-03 to present)
+Senior Software Engineer, Babbage Systems (2017-06 to 2021-02)
+
+EDUCATION
+B.S. in Computer Science, MIT, 2017

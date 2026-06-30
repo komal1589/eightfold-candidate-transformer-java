@@ -1,0 +1,8 @@
+{
+  "login": "adalovelace",
+  "name": "Ada Lovelace",
+  "bio": "Distributed systems & data infra. Coffee -> code.",
+  "blog": "https://adalovelace.dev",
+  "location": "SF, USA",
+  "languages": ["Go", "Python", "Rust", "JavaScript"]
+}

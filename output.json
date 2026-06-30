@@ -1,0 +1,19 @@
+{
+  "full_name": "Ada B. Lovelace",
+  "primary_email": "ada.lovelace@example.com",
+  "phone": "+14155550142",
+  "country": "US",
+  "skills": [
+    "Apache Kafka",
+    "Apache Spark",
+    "Distributed Systems",
+    "Go",
+    "JavaScript",
+    "Kubernetes",
+    "PostgreSQL",
+    "Python",
+    "Rust"
+  ],
+  "github": "https://github.com/adalovelace",
+  "overall_confidence": 0.779
+}

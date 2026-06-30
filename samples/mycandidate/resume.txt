@@ -1,0 +1,12 @@
+Grace Hopper
+grace.hopper@example.com | +1 212 555 0190 | New York, NY
+
+SKILLS
+COBOL, Python, Distributed Systems, k8s, golang
+
+EXPERIENCE
+Principal Engineer, Compiler Works (2019-01 to present)
+Staff Engineer, Mark Systems (2014-06 to 2018-12)
+
+EDUCATION
+Ph.D. in Mathematics, Yale, 1934

@@ -1,0 +1,270 @@
+{
+  "candidate_id": "cand_alan_turing_001",
+  "full_name": "Alan M. Turing",
+  "emails": [
+    "alan.turing@example.com",
+    "aturing@oldmail.com"
+  ],
+  "phones": [
+    "+16175550123",
+    "+16175550177"
+  ],
+  "location": {
+    "city": "Cambridge",
+    "region": "Massachusetts",
+    "country": "US"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/alanturing",
+    "github": "https://github.com/alanturing",
+    "portfolio": null,
+    "other": [
+      "https://turing.dev"
+    ]
+  },
+  "headline": "Distinguished Engineer",
+  "years_experience": 12,
+  "skills": [
+    {
+      "name": "Apache Kafka",
+      "confidence": 0.91,
+      "sources": [
+        "linkedin",
+        "recruiter_notes",
+        "resume"
+      ]
+    },
+    {
+      "name": "Apache Spark",
+      "confidence": 0.7,
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "name": "C++",
+      "confidence": 1,
+      "sources": [
+        "github_api",
+        "resume"
+      ]
+    },
+    {
+      "name": "Distributed Systems",
+      "confidence": 0.85,
+      "sources": [
+        "linkedin",
+        "recruiter_notes"
+      ]
+    },
+    {
+      "name": "Go",
+      "confidence": 1,
+      "sources": [
+        "ats_json",
+        "github_api",
+        "linkedin",
+        "resume"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "confidence": 0.95,
+      "sources": [
+        "ats_json",
+        "resume"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "confidence": 1,
+      "sources": [
+        "ats_json",
+        "linkedin",
+        "recruiter_notes",
+        "resume"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "confidence": 0.85,
+      "sources": [
+        "ats_json"
+      ]
+    },
+    {
+      "name": "Python",
+      "confidence": 1,
+      "sources": [
+        "ats_json",
+        "github_api",
+        "resume"
+      ]
+    },
+    {
+      "name": "Rust",
+      "confidence": 1,
+      "sources": [
+        "github_api",
+        "resume"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "DeepThought Labs",
+      "title": "Distinguished Engineer",
+      "start": "2018-09",
+      "end": "present",
+      "summary": "Leads the model-training platform."
+    },
+    {
+      "title": "Principal Engineer",
+      "company": "Bletchley Systems",
+      "start": "2012-06",
+      "end": "2018-08",
+      "summary": "Built the cryptanalysis pipeline."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Mathematics",
+      "institution": "Princeton",
+      "end_year": 2012
+    }
+  ],
+  "overall_confidence": 0.777,
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "recruiter_csv",
+      "method": "csv_column:name"
+    },
+    {
+      "field": "headline",
+      "source": "recruiter_csv",
+      "method": "csv_column:title"
+    },
+    {
+      "field": "years_experience",
+      "source": "ats_json",
+      "method": "ats:yearsOfExperience"
+    },
+    {
+      "field": "location.city",
+      "source": "recruiter_csv",
+      "method": "csv_column:location"
+    },
+    {
+      "field": "location.region",
+      "source": "recruiter_csv",
+      "method": "csv_column:location"
+    },
+    {
+      "field": "location.country",
+      "source": "recruiter_csv",
+      "method": "csv_column:location"
+    },
+    {
+      "field": "links.linkedin",
+      "source": "linkedin",
+      "method": "linkedin:profileUrl"
+    },
+    {
+      "field": "links.github",
+      "source": "github_api",
+      "method": "github_api:login"
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_csv",
+      "method": "csv_column:email"
+    },
+    {
+      "field": "emails",
+      "source": "ats_json",
+      "method": "ats:contactEmails"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv",
+      "method": "csv_column:phone"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_notes",
+      "method": "notes:regex_phone"
+    },
+    {
+      "field": "links.other",
+      "source": "ats_json",
+      "method": "ats:profileUrls"
+    },
+    {
+      "field": "skills:Apache Kafka",
+      "source": "linkedin",
+      "method": "linkedin:skills"
+    },
+    {
+      "field": "skills:Apache Spark",
+      "source": "resume",
+      "method": "resume:skills_section"
+    },
+    {
+      "field": "skills:C++",
+      "source": "github_api",
+      "method": "github_api:languages"
+    },
+    {
+      "field": "skills:Distributed Systems",
+      "source": "linkedin",
+      "method": "linkedin:skills"
+    },
+    {
+      "field": "skills:Go",
+      "source": "ats_json",
+      "method": "ats:skillTags"
+    },
+    {
+      "field": "skills:Kubernetes",
+      "source": "ats_json",
+      "method": "ats:skillTags"
+    },
+    {
+      "field": "skills:Machine Learning",
+      "source": "ats_json",
+      "method": "ats:skillTags"
+    },
+    {
+      "field": "skills:PostgreSQL",
+      "source": "ats_json",
+      "method": "ats:skillTags"
+    },
+    {
+      "field": "skills:Python",
+      "source": "ats_json",
+      "method": "ats:skillTags"
+    },
+    {
+      "field": "skills:Rust",
+      "source": "github_api",
+      "method": "github_api:languages"
+    },
+    {
+      "field": "experience",
+      "source": "recruiter_csv",
+      "method": "csv_row:current_role"
+    },
+    {
+      "field": "experience",
+      "source": "resume",
+      "method": "resume:experience_section"
+    },
+    {
+      "field": "education",
+      "source": "resume",
+      "method": "resume:education_section"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+// Optional Gradle build for reviewers who prefer it. The canonical, no-tooling
+// path is ./build.sh + ./run.sh (bare JDK + the vendored Gson jar in ./libs).
+plugins {
+    id 'application'
+}
+
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(21) }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // The one third-party dependency: Gson (JSON parsing).
+    // Uses the jar already vendored in ./libs so it also works offline; switch
+    // to "implementation 'com.google.code.gson:gson:2.11.0'" to fetch from Maven.
+    implementation files('libs/gson-2.11.0.jar')
+}
+
+sourceSets {
+    main { java { srcDirs = ['src/main/java'] } }
+    test { java { srcDirs = ['src/test/java'] } }
+}
+
+application {
+    mainClass = 'com.eightfold.veritas.Cli'
+}
+
+// `gradle runTests` -> the zero-dependency test harness.
+tasks.register('runTests', JavaExec) {
+    group = 'verification'
+    classpath = sourceSets.main.runtimeClasspath + sourceSets.test.output
+    mainClass = 'com.eightfold.veritas.Tests'
+}
+
+// Example: gradle run --args="--manifest samples/inputs/manifest.json --explain"

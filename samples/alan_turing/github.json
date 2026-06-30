@@ -1,0 +1,8 @@
+{
+  "login": "alanturing",
+  "name": "Alan Turing",
+  "bio": "Machine intelligence, cryptanalysis, theory of computation.",
+  "blog": "https://turing.dev",
+  "location": "Cambridge, USA",
+  "languages": ["Go", "Python", "C++", "Rust"]
+}

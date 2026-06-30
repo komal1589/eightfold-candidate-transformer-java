@@ -1,0 +1,14 @@
+{
+  "name": "Alan Mathison Turing",
+  "headline": "Distinguished Engineer at DeepThought Labs",
+  "profileUrl": "https://www.linkedin.com/in/alanturing",
+  "location": "Greater Boston, United States",
+  "experience": [
+    {"company": "DeepThought Labs", "title": "Distinguished Engineer", "start": "2018-09", "end": "", "summary": "Leads the model-training platform."},
+    {"company": "Bletchley Systems", "title": "Principal Engineer", "start": "Jun 2012", "end": "Aug 2018", "summary": "Built the cryptanalysis pipeline."}
+  ],
+  "education": [
+    {"school": "Princeton", "degree": "Ph.D.", "field": "Mathematics", "end": "2012"}
+  ],
+  "skills": ["Machine Learning", "Distributed Systems", "Apache Kafka", "Go"]
+}

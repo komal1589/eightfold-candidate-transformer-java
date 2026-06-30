@@ -1,0 +1,14 @@
+{
+  "_comment": "Custom config (the required twist): subset + rename/remap + per-field normalize + omit-missing. Same engine, no code change.",
+  "fields": [
+    { "path": "full_name",     "from": "full_name",   "type": "string",   "required": true },
+    { "path": "primary_email", "from": "emails[0]",   "type": "string",   "required": true },
+    { "path": "phone",         "from": "phones[0]",   "type": "string",   "normalize": "E164" },
+    { "path": "country",       "from": "location.country", "type": "string" },
+    { "path": "skills",        "from": "skills[].name", "type": "string[]", "normalize": "canonical" },
+    { "path": "github",        "from": "links.github", "type": "string" }
+  ],
+  "include_confidence": true,
+  "include_provenance": false,
+  "on_missing": "omit"
+}

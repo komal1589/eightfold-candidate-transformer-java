@@ -1,0 +1,7 @@
+{
+  "candidate_id": "cand_grace_001",
+  "sources": [
+    {"type": "recruiter_csv", "path": "recruiter.csv", "timestamp": "2026-06-25"},
+    {"type": "resume",        "path": "resume.txt",    "timestamp": "2026-06-20"}
+  ]
+}

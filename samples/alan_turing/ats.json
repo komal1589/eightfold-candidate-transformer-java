@@ -1,0 +1,10 @@
+{
+  "candidateName": "Alan Turing",
+  "contactEmails": ["alan.turing@example.com", "ATURING@oldmail.com"],
+  "contactPhones": ["+1 617 555 0123"],
+  "currentHeadline": "Distinguished Engineer, ML Systems",
+  "yearsOfExperience": 12,
+  "skillTags": ["Python", "golang", "k8s", "ml", "PostgreSQL"],
+  "geo": {"city": "Cambridge", "state": "MA", "country": "USA"},
+  "profileUrls": ["https://linkedin.com/in/alanturing", "https://turing.dev"]
+}
